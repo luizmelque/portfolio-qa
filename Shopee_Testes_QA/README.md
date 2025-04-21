@@ -1,47 +1,67 @@
-# 💼 Luiz Melque - Quality Assurance Portfolio
+# 🚀 Projeto Shopee – Testes de Qualidade (QA)
 
-Olá! 👋  
-Meu nome é **Luiz Melque** e este é meu portfólio de projetos voltados para a área de **Quality Assurance (QA)**, com foco em **testes manuais e automatizados**.
-
-Aqui você encontrará exemplos práticos de artefatos utilizados em QA, como checklists, matrizes de teste, relatórios de bugs e automações utilizando ferramentas modernas.
+Este projeto tem como objetivo avaliar a qualidade do fluxo de compra na plataforma **Shopee**, através da aplicação de testes funcionais, exploratórios e de usabilidade. Além dos testes, foram realizadas análises de UX e documentadas melhorias recomendadas.
 
 ---
 
-## 🧩 Projetos
+## 📁 Estrutura do Repositório
 
-| Projeto | Descrição | Tipo |
-|--------|-----------|------|
-| [✅ Checklist de Login](./checklist-login) | Checklist funcional para validação de login | Manual |
-| [📊 Matriz de Testes - Login](./matriz-login) | Matriz de rastreabilidade de testes para o fluxo de login | Manual |
-| [🐞 Relatório de Bugs](./relatorio-bugs) | Relatórios detalhados de bugs encontrados durante testes manuais | Manual |
-| [🤖 Teste Automatizado - SauceDemo](./automated-tests-saucedemo) | Testes E2E com Cypress no site [saucedemo.com](https://www.saucedemo.com/) | Automação |
-
----
-
-## 🧪 Tecnologias e Ferramentas Utilizadas
-
-- ✅ Testes Manuais
-- 🧪 Cypress
-- 📋 Checklist, Casos de Teste, Relatórios de Bug
-- 🐛 JIRA (simulado)
-- 💻 VS Code
-- 🌐 Git & GitHub
+- 📄 `Plano_de_Testes.pdf`: Estratégia de testes e abordagem utilizada.
+- ✅ `Casos_de_Teste.xlsx`: Casos de teste com status de aprovação e resultados esperados.
+- 🐞 `Relatorio_de_Bugs.pdf`: Bugs encontrados, classificados e documentados com evidências.
+- 🧠 `Analise_UX_Experiencia.pdf`: Avaliação da experiência do usuário e recomendações de melhoria.
+- 📸 `Evidencias/`: Prints de tela com validações dos testes.
+- 📊 `Metricas/`: Gráficos com dados sobre taxa de sucesso, cobertura e falhas.
+- 📜 `LICENSE`: Licença MIT.
 
 ---
 
-## 🚀 Como Navegar
+## 🧪 Tipos de Testes Aplicados
 
-1. Clique em qualquer um dos projetos listados acima.
-2. Cada pasta contém arquivos explicativos (`README.md`) e os documentos relacionados.
-3. O projeto de automação possui instruções para instalação e execução local.
-
----
-
-## 🌐 Contato
-
-- [LinkedIn](https://www.linkedin.com/in/luizmelque/)
-- Email: melkalmeida1@gmail.com
+- Testes Funcionais (manuais)
+- Testes Exploratórios
+- Testes de Usabilidade
+- Validação de mensagens e alertas
+- Verificação básica de responsividade
+- Avaliação da experiência do usuário (UX)
 
 ---
 
-📌 *Este portfólio está em constante evolução. Fique à vontade para sugerir melhorias ou deixar um feedback!*
+## ⚙️ Ambiente de Testes
+
+- **Plataforma:** Shopee Web – https://shopee.com.br  
+- **Navegadores:** Google Chrome, Mozilla Firefox  
+- **Sistemas Operacionais:** Windows, macOS  
+- **Dispositivos:** Desktop e Mobile
+
+---
+
+## 🛠️ Ferramentas Utilizadas
+
+- Google Chrome DevTools  
+- Selenium (UI)  
+- Postman (API)  
+- JUnit  
+- Google Sheets / Excel  
+- PDF Editor (relatórios)  
+- Canva / Figma (UX)
+
+---
+
+## 📊 Métricas Monitoradas
+
+- Taxa de bugs (falhas identificadas x total de casos)
+- Tempo de execução dos testes
+- Cobertura de testes (funcionalidades x total planejado)
+- Propostas de melhoria baseadas em UX
+
+---
+
+## 📝 Conclusão
+
+O projeto evidenciou que, apesar da Shopee oferecer uma navegação intuitiva e fluida, ainda existem **pontos críticos no processo de checkout**, **ausência de feedback visual em ações-chave**, além de **ajustes necessários na versão mobile e em aspectos de acessibilidade**. A documentação completa permite visibilidade sobre os problemas e caminhos viáveis para melhoria contínua da plataforma.
+
+---
+
+**Licença:**  
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [`LICENSE`](LICENSE) para mais detalhes.

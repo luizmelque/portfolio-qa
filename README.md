@@ -7,37 +7,48 @@ O objetivo deste portfólio é demonstrar, de forma prática, as habilidades e c
 
 ---
 
-## 📌 Projetos
+### 📌 Projetos:
 
-### 🔹 [Checklist de Testes - Cadastro](./checklist-login)
-**Descrição:** Checklist detalhado para validação da funcionalidade de cadastro de usuários em um sistema.  
-**Arquivos:** `Checklist de Testes Cadastro`, `README.md`
+1. [Checklist de Testes de Cadastro](checklist-login/)
+   - **Descrição**: Um checklist detalhado de testes para a funcionalidade de cadastro de usuários em um sistema.
+   - **Arquivos**:
+     - [Checklist de Testes Cadastro](checklist-login/Checklist_de_Testes_Cadastro.pdf)
+     - [README.md](checklist-login/README.md)
 
----
+2. [Matriz de Testes Login](matriz-login/)
+   - **Descrição**: Uma matriz de testes para validar o fluxo de login em um sistema fictício de e-commerce (Saucedemo).
+   - **Arquivos**:
+     - [Matriz de Testes Saucedemo](matriz-login/Matriz_de_Testes_Saucedemo.pdf)
+     - [README.md](matriz-login/README.md)
 
-### 🔹 [Matriz de Testes - Login (SauceDemo)](./matriz-login)
-**Descrição:** Matriz de testes para validar o fluxo de login em um sistema fictício de e-commerce ([saucedemo.com](https://www.saucedemo.com/)).  
-**Arquivos:** `Matriz de Testes Saucedemo`, `README.md`
+3. [Relatório de Bugs Login](relatorio-bugs/)
+   - **Descrição**: Relatório com os bugs encontrados durante os testes de login de uma aplicação. A documentação inclui detalhes sobre a gravidade e os passos para reprodução.
+   - **Arquivos**:
+     - [Relatório de Bugs Login](relatorio-bugs/Relatorio_de_Bugs_Login.pdf)
+     - [README.md](relatorio-bugs/README.md)
 
----
+4. [Mini Projeto QA SauceDemo](miniprojeto-saucedemo/)
+   - **Descrição**: Um mini projeto que documenta os testes realizados na aplicação de e-commerce Saucedemo.
+   - **Arquivos**:
+     - [Mini Projeto QA SauceDemo](miniprojeto-saucedemo/Mini_Projeto_QA_SauceDemo_Luiz_Melque_Almeida.pdf)
+     - [README.md](miniprojeto-saucedemo/README.md)
 
-### 🔹 [Relatório de Bugs - Login](./relatorio-bugs)
-**Descrição:** Documentação dos bugs encontrados durante testes manuais de login, com detalhes sobre severidade, impacto e passos de reprodução.  
-**Arquivos:** `Relatório de Bugs`, `README.md`
+5. [Testes Automatizados - SauceDemo](automated-tests-saucedemo/)
+   - **Descrição**: Scripts de testes automatizados utilizando Python e Selenium para validar o fluxo de login na aplicação Saucedemo.
+   - **Arquivos**:
+     - [test_login.py](automated-tests-saucedemo/test_login.py)
+     - [requirements.txt](automated-tests-saucedemo/requirements.txt)
+     - [README.md](automated-tests-saucedemo/README.md)
 
----
-
-### 🔹 [Mini Projeto QA - SauceDemo](./automated-tests-saucedemo)
-**Descrição:** Projeto de QA que documenta os testes realizados na aplicação SauceDemo, com foco em boas práticas de QA.  
-**Arquivos:** `Mini Projeto QA`, `README.md`
-
----
-
-### 🔹 [Testes Automatizados - SauceDemo](./automated-tests-saucedemo)
-**Descrição:** Scripts de testes automatizados utilizando **Python** e **Selenium WebDriver** para validar o fluxo de login na aplicação SauceDemo.  
-**Arquivos:** `test_login.py`, `requirements.txt`, `README.md`
-
----
+6. [Projeto de Testes QA – Shopee](Shopee_Testes_QA/)
+   - **Descrição**: Projeto completo de testes manuais na plataforma Shopee, abrangendo planejamento, execução, análise de experiência do usuário e documentação de bugs.
+   - **Arquivos**:
+     - [Plano de Testes](Shopee_Testes_QA/Plano_de_Testes.pdf)
+     - [Casos de Teste](Shopee_Testes_QA/Casos_de_Teste.xlsx)
+     - [Relatório de Bugs](Shopee_Testes_QA/Relatorio_de_Bugs.pdf)
+     - [Análise UX](Shopee_Testes_QA/Analise_UX_Experiencia.pdf)
+     - [Relatório de Métricas](Shopee_Testes_QA/Metricas/relatorio_metricas.pdf)
+     - [README.md](Shopee_Testes_QA/README.md)
 
 ## 🛠️ Tecnologias e Ferramentas Utilizadas
 

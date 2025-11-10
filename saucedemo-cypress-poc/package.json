@@ -1,0 +1,15 @@
+{
+  "name": "saucedemo-cypress-poc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "Projeto de testes automatizados com Cypress para o site SauceDemo"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^15.6.0"
+  },
+  "description": ""
+}
